@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/web.css">
+        <title>Evrak Sorgulama</title>
+    </head>
+    <body>
+        <ul>
+            <form action="sorgu.php" method="POST">
+            <label for="dogrulama-kod">Doğrulama Kodu</label>
+            <input type="number" name="kod" id="dogrulama-kod" required>
+            <br>
+            <br>
+            <label for="evrak-sayi">Evrak Sayısı</label>
+            <input type="number" name="sayi" id="evrak-sayi" required>
+            <br><br>
+            <input type="submit" value="Sorgula" id="sorgula" onclick="evrak_sorgulama()">
+        </form>
+        </ul>
+        <br>
+        <br>
+        <b>Evrak Sorgulaması Hatalı. Eksik Ya Da Yanlış Bilgi Girdiniz. Tekrar Deneyiniz.</b>
+    </body>
+</html>
+<script src="js/source.js"></script>
+<script>
+populateFields()
+</script>
