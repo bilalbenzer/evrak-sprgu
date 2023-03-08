@@ -1,0 +1,19 @@
+#divvv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+#bilgiler{
+    font-size: medium;
+}
+#baslik{
+    font-size: larger;
+    font-weight: bold;
+    margin: 5px;
+}
+.altsatir{
+    width: 100%;
+    margin: 5px;
+}

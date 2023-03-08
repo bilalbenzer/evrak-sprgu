@@ -10,15 +10,14 @@
     <body>
         <ul>
             <form action="sorgu.php" method="POST">
-            <label for="dogrulama-kod">Doğrulama Kodu</label>
-            <input type="number" name="kod" id="dogrulama-kod" required>
-            <br>
-            <br>
-            <label for="evrak-sayi">Evrak Sayısı</label>
-            <input type="number" name="sayi" id="evrak-sayi" required>
-            <br><br>
-            <input type="submit" value="Sorgula" id="sorgula" onclick="evrak_sorgulama()">
-        </form>
+                <label for="dogrulamakod">Doğrulama Kodu</label>
+                <input type="text" name="kod" id="dogrulamakod" placeholder="Doğrulama Kodu" required>
+                <br><br>
+                <label for="evraksayi">Evrak Sayısı</label>
+                <input type="text" name="sayi" id="evraksayi" placeholder="Evrak Sayısı" required>
+                <br><br>
+                <input type="submit"onclick="evrak_sorgulama()">
+            </form>
         </ul>
     </body>
 </html>
